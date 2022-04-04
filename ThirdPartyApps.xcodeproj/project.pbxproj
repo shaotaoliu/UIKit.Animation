@@ -17,12 +17,20 @@
 		4A1E247827F991F7004BD46F /* SliderCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1E247727F991F7004BD46F /* SliderCardsViewController.swift */; };
 		4A46581C27FA2982009FA82E /* SkeletonView in Frameworks */ = {isa = PBXBuildFile; productRef = 4A46581B27FA2982009FA82E /* SkeletonView */; };
 		4A46581E27FA29A8009FA82E /* SkeletonTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A46581D27FA29A8009FA82E /* SkeletonTableViewController.swift */; };
-		4A46582027FA36E5009FA82E /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A46581F27FA36E5009FA82E /* TestViewController.swift */; };
+		4A46582027FA36E5009FA82E /* BulletBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A46581F27FA36E5009FA82E /* BulletBoardViewController.swift */; };
 		4A46582227FA3786009FA82E /* SkeletonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A46582127FA3786009FA82E /* SkeletonTableViewCell.swift */; };
 		4A6646EC27FA0DF200F565F3 /* InstantSearchVoiceOverlay in Frameworks */ = {isa = PBXBuildFile; productRef = 4A6646EB27FA0DF200F565F3 /* InstantSearchVoiceOverlay */; };
 		4A6646F227FA0F3D00F565F3 /* CardSlider in Frameworks */ = {isa = PBXBuildFile; productRef = 4A6646F127FA0F3D00F565F3 /* CardSlider */; };
 		4A6646F527FA0FB300F565F3 /* NotificationBannerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4A6646F427FA0FB300F565F3 /* NotificationBannerSwift */; };
 		4A6646F727FA100000F565F3 /* BannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6646F627FA100000F565F3 /* BannerViewController.swift */; };
+		4AB51EB327FAAD020031B1E1 /* WhatsNewKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4AB51EB227FAAD020031B1E1 /* WhatsNewKit */; };
+		4AB51EB527FAADA50031B1E1 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB51EB427FAADA50031B1E1 /* NewsViewController.swift */; };
+		4AB51EB827FABE2A0031B1E1 /* BLTNBoard in Frameworks */ = {isa = PBXBuildFile; productRef = 4AB51EB727FABE2A0031B1E1 /* BLTNBoard */; };
+		4AB51EBB27FAC7020031B1E1 /* FloatingPanel in Frameworks */ = {isa = PBXBuildFile; productRef = 4AB51EBA27FAC7020031B1E1 /* FloatingPanel */; };
+		4AB51EBD27FAC7130031B1E1 /* FloatPanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB51EBC27FAC7130031B1E1 /* FloatPanelViewController.swift */; };
+		4AB51EBF27FAC97A0031B1E1 /* FloatPanelTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB51EBE27FAC97A0031B1E1 /* FloatPanelTableViewController.swift */; };
+		4AB51EC427FACC350031B1E1 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB51EC327FACC350031B1E1 /* SideMenuViewController.swift */; };
+		4AB51ECA27FACE700031B1E1 /* SideMenu in Frameworks */ = {isa = PBXBuildFile; productRef = 4AB51EC927FACE700031B1E1 /* SideMenu */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,9 +45,13 @@
 		4A1E246C27F98DF6004BD46F /* VoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceViewController.swift; sourceTree = "<group>"; };
 		4A1E247727F991F7004BD46F /* SliderCardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderCardsViewController.swift; sourceTree = "<group>"; };
 		4A46581D27FA29A8009FA82E /* SkeletonTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonTableViewController.swift; sourceTree = "<group>"; };
-		4A46581F27FA36E5009FA82E /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		4A46581F27FA36E5009FA82E /* BulletBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulletBoardViewController.swift; sourceTree = "<group>"; };
 		4A46582127FA3786009FA82E /* SkeletonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonTableViewCell.swift; sourceTree = "<group>"; };
 		4A6646F627FA100000F565F3 /* BannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerViewController.swift; sourceTree = "<group>"; };
+		4AB51EB427FAADA50031B1E1 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		4AB51EBC27FAC7130031B1E1 /* FloatPanelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatPanelViewController.swift; sourceTree = "<group>"; };
+		4AB51EBE27FAC97A0031B1E1 /* FloatPanelTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatPanelTableViewController.swift; sourceTree = "<group>"; };
+		4AB51EC327FACC350031B1E1 /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,8 +60,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A46581C27FA2982009FA82E /* SkeletonView in Frameworks */,
+				4AB51EB827FABE2A0031B1E1 /* BLTNBoard in Frameworks */,
+				4AB51ECA27FACE700031B1E1 /* SideMenu in Frameworks */,
 				4A6646EC27FA0DF200F565F3 /* InstantSearchVoiceOverlay in Frameworks */,
+				4AB51EB327FAAD020031B1E1 /* WhatsNewKit in Frameworks */,
 				4A6646F527FA0FB300F565F3 /* NotificationBannerSwift in Frameworks */,
+				4AB51EBB27FAC7020031B1E1 /* FloatingPanel in Frameworks */,
 				4A6646F227FA0F3D00F565F3 /* CardSlider in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -96,7 +112,11 @@
 				4A6646F627FA100000F565F3 /* BannerViewController.swift */,
 				4A46581D27FA29A8009FA82E /* SkeletonTableViewController.swift */,
 				4A46582127FA3786009FA82E /* SkeletonTableViewCell.swift */,
-				4A46581F27FA36E5009FA82E /* TestViewController.swift */,
+				4AB51EB427FAADA50031B1E1 /* NewsViewController.swift */,
+				4A46581F27FA36E5009FA82E /* BulletBoardViewController.swift */,
+				4AB51EBC27FAC7130031B1E1 /* FloatPanelViewController.swift */,
+				4AB51EBE27FAC97A0031B1E1 /* FloatPanelTableViewController.swift */,
+				4AB51EC327FACC350031B1E1 /* SideMenuViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -122,6 +142,10 @@
 				4A6646F127FA0F3D00F565F3 /* CardSlider */,
 				4A6646F427FA0FB300F565F3 /* NotificationBannerSwift */,
 				4A46581B27FA2982009FA82E /* SkeletonView */,
+				4AB51EB227FAAD020031B1E1 /* WhatsNewKit */,
+				4AB51EB727FABE2A0031B1E1 /* BLTNBoard */,
+				4AB51EBA27FAC7020031B1E1 /* FloatingPanel */,
+				4AB51EC927FACE700031B1E1 /* SideMenu */,
 			);
 			productName = ThirdPartyApps;
 			productReference = 4A1E245427F98B1E004BD46F /* ThirdPartyApps.app */;
@@ -156,6 +180,10 @@
 				4A6646F027FA0F3D00F565F3 /* XCRemoteSwiftPackageReference "cardslider" */,
 				4A6646F327FA0FB300F565F3 /* XCRemoteSwiftPackageReference "NotificationBanner" */,
 				4A46581A27FA2982009FA82E /* XCRemoteSwiftPackageReference "SkeletonView" */,
+				4AB51EB127FAAD020031B1E1 /* XCRemoteSwiftPackageReference "WhatsNewKit" */,
+				4AB51EB627FABE2A0031B1E1 /* XCRemoteSwiftPackageReference "BulletinBoard" */,
+				4AB51EB927FAC7020031B1E1 /* XCRemoteSwiftPackageReference "FloatingPanel" */,
+				4AB51EC827FACE700031B1E1 /* XCRemoteSwiftPackageReference "SideMenu" */,
 			);
 			productRefGroup = 4A1E245527F98B1E004BD46F /* Products */;
 			projectDirPath = "";
@@ -185,14 +213,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A6646F727FA100000F565F3 /* BannerViewController.swift in Sources */,
+				4AB51EB527FAADA50031B1E1 /* NewsViewController.swift in Sources */,
 				4A1E245C27F98B1E004BD46F /* ViewController.swift in Sources */,
+				4AB51EC427FACC350031B1E1 /* SideMenuViewController.swift in Sources */,
 				4A46582227FA3786009FA82E /* SkeletonTableViewCell.swift in Sources */,
-				4A46582027FA36E5009FA82E /* TestViewController.swift in Sources */,
+				4AB51EBD27FAC7130031B1E1 /* FloatPanelViewController.swift in Sources */,
+				4A46582027FA36E5009FA82E /* BulletBoardViewController.swift in Sources */,
 				4A1E246D27F98DF6004BD46F /* VoiceViewController.swift in Sources */,
 				4A1E245827F98B1E004BD46F /* AppDelegate.swift in Sources */,
 				4A1E247827F991F7004BD46F /* SliderCardsViewController.swift in Sources */,
 				4A46581E27FA29A8009FA82E /* SkeletonTableViewController.swift in Sources */,
 				4A1E245A27F98B1E004BD46F /* SceneDelegate.swift in Sources */,
+				4AB51EBF27FAC97A0031B1E1 /* FloatPanelTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +480,38 @@
 				minimumVersion = 3.0.0;
 			};
 		};
+		4AB51EB127FAAD020031B1E1 /* XCRemoteSwiftPackageReference "WhatsNewKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SvenTiigi/WhatsNewKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		4AB51EB627FABE2A0031B1E1 /* XCRemoteSwiftPackageReference "BulletinBoard" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alexisakers/BulletinBoard";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		4AB51EB927FAC7020031B1E1 /* XCRemoteSwiftPackageReference "FloatingPanel" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scenee/FloatingPanel";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		4AB51EC827FACE700031B1E1 /* XCRemoteSwiftPackageReference "SideMenu" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jonkykong/SideMenu";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -470,6 +534,26 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 4A6646F327FA0FB300F565F3 /* XCRemoteSwiftPackageReference "NotificationBanner" */;
 			productName = NotificationBannerSwift;
+		};
+		4AB51EB227FAAD020031B1E1 /* WhatsNewKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4AB51EB127FAAD020031B1E1 /* XCRemoteSwiftPackageReference "WhatsNewKit" */;
+			productName = WhatsNewKit;
+		};
+		4AB51EB727FABE2A0031B1E1 /* BLTNBoard */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4AB51EB627FABE2A0031B1E1 /* XCRemoteSwiftPackageReference "BulletinBoard" */;
+			productName = BLTNBoard;
+		};
+		4AB51EBA27FAC7020031B1E1 /* FloatingPanel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4AB51EB927FAC7020031B1E1 /* XCRemoteSwiftPackageReference "FloatingPanel" */;
+			productName = FloatingPanel;
+		};
+		4AB51EC927FACE700031B1E1 /* SideMenu */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4AB51EC827FACE700031B1E1 /* XCRemoteSwiftPackageReference "SideMenu" */;
+			productName = SideMenu;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

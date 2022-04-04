@@ -1,12 +1,30 @@
 {
   "pins" : [
     {
+      "identity" : "bulletinboard",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/alexisakers/BulletinBoard",
+      "state" : {
+        "revision" : "e8ba81d25e41e5d24d6a4f404ed28443d728723b",
+        "version" : "5.0.0"
+      }
+    },
+    {
       "identity" : "cardslider",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Ramotion/cardslider",
       "state" : {
         "branch" : "master",
         "revision" : "b66a2bcfff00b3a6bb68e366a61692ebaea7ae44"
+      }
+    },
+    {
+      "identity" : "floatingpanel",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/scenee/FloatingPanel",
+      "state" : {
+        "revision" : "fe30e60235c5cc753e2ee2a3eebc8e654971634d",
+        "version" : "2.5.2"
       }
     },
     {
@@ -25,6 +43,15 @@
       "state" : {
         "revision" : "e856a462053daf80c7936056d64246983f3f4d14",
         "version" : "3.1.0"
+      }
+    },
+    {
+      "identity" : "sidemenu",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jonkykong/SideMenu",
+      "state" : {
+        "revision" : "8bd4fd128923cf5494fa726839af8afe12908ad9",
+        "version" : "6.5.0"
       }
     },
     {
@@ -52,6 +79,15 @@
       "state" : {
         "branch" : "master",
         "revision" : "55a1047be9e0d9e4d4295ef127cc31b3ef7b8b54"
+      }
+    },
+    {
+      "identity" : "whatsnewkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SvenTiigi/WhatsNewKit",
+      "state" : {
+        "revision" : "8d40ce0de25a4bfe7996bef46c429c1e56a8962b",
+        "version" : "2.0.1"
       }
     }
   ],
