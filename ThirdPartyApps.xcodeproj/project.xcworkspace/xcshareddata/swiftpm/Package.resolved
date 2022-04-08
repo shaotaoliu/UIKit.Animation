@@ -28,6 +28,15 @@
       }
     },
     {
+      "identity" : "lottie-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/airbnb/lottie-ios/",
+      "state" : {
+        "branch" : "master",
+        "revision" : "f99a37afd0269814477fd5c2dd7295d500f1fd83"
+      }
+    },
+    {
       "identity" : "marqueelabel",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/cbpowell/MarqueeLabel",

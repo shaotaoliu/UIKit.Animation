@@ -1,7 +1,7 @@
 import UIKit
 import SideMenu
 
-class SideMenuViewController: UIViewController {
+class SideMenuViewController: UIViewController, MenuListViewControllerDelegate {
 
     @IBOutlet weak var label: UILabel!
     var controller: SideMenuNavigationController!
@@ -9,7 +9,10 @@ class SideMenuViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        controller = SideMenuNavigationController(rootViewController: MenuListViewController())
+        let menuController = MenuListViewController()
+        menuController.delegate = self
+        
+        controller = SideMenuNavigationController(rootViewController: menuController)
         controller.leftSide = true
         
         // controller.setNavigationBarHidden(true, animated: false)
@@ -27,14 +30,21 @@ class SideMenuViewController: UIViewController {
     @IBAction func didDismissTapped(_ sender: Any) {
         dismiss(animated: true)
     }
+    
+    func menuItemTapped(item: String) {
+        label.text = item
+    }
 }
 
 class MenuListViewController: UITableViewController {
     
     let items = ["First", "Second", "Third", "Fourth", "Fifth"]
+    weak var delegate: MenuListViewControllerDelegate?
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        tableView.backgroundColor = .darkGray
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
     }
     
@@ -45,10 +55,19 @@ class MenuListViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         cell.textLabel?.text = items[indexPath.row]
+        cell.textLabel?.textColor = .white
+        cell.backgroundColor = .darkGray
         return cell
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: false)
+        delegate?.menuItemTapped(item: items[indexPath.row])
     }
+}
+
+protocol MenuListViewControllerDelegate: AnyObject {
+    
+    func menuItemTapped(item: String)
+    
 }
