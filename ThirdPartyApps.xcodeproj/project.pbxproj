@@ -13,6 +13,8 @@
 		4A03A0BD27FFA406003CF301 /* rocket.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A03A0B927FFA406003CF301 /* rocket.json */; };
 		4A03A0BE27FFA406003CF301 /* jump.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A03A0BA27FFA406003CF301 /* jump.json */; };
 		4A03A0BF27FFA406003CF301 /* switch.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A03A0BB27FFA406003CF301 /* switch.json */; };
+		4A03A0D0280217F3003CF301 /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = 4A03A0CF280217F3003CF301 /* Charts */; };
+		4A03A0D828021A08003CF301 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A03A0D728021A08003CF301 /* ChartViewController.swift */; };
 		4A1E245827F98B1E004BD46F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1E245727F98B1E004BD46F /* AppDelegate.swift */; };
 		4A1E245A27F98B1E004BD46F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1E245927F98B1E004BD46F /* SceneDelegate.swift */; };
 		4A1E245C27F98B1E004BD46F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1E245B27F98B1E004BD46F /* ViewController.swift */; };
@@ -37,6 +39,10 @@
 		4AB51EBF27FAC97A0031B1E1 /* FloatPanelTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB51EBE27FAC97A0031B1E1 /* FloatPanelTableViewController.swift */; };
 		4AB51EC427FACC350031B1E1 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB51EC327FACC350031B1E1 /* SideMenuViewController.swift */; };
 		4AB51ECA27FACE700031B1E1 /* SideMenu in Frameworks */ = {isa = PBXBuildFile; productRef = 4AB51EC927FACE700031B1E1 /* SideMenu */; };
+		4AB8F71E280B710300EF60BF /* YouTubeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB8F71D280B710300EF60BF /* YouTubeViewController.swift */; };
+		4AB8F720280B712400EF60BF /* ShimmerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB8F71F280B712400EF60BF /* ShimmerViewController.swift */; };
+		4AB8F723280B718600EF60BF /* YouTubeiOSPlayerHelper in Frameworks */ = {isa = PBXBuildFile; productRef = 4AB8F722280B718600EF60BF /* YouTubeiOSPlayerHelper */; };
+		4AB8F726280B71A100EF60BF /* ShimmerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4AB8F725280B71A100EF60BF /* ShimmerSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +51,7 @@
 		4A03A0B927FFA406003CF301 /* rocket.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = rocket.json; sourceTree = "<group>"; };
 		4A03A0BA27FFA406003CF301 /* jump.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = jump.json; sourceTree = "<group>"; };
 		4A03A0BB27FFA406003CF301 /* switch.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = switch.json; sourceTree = "<group>"; };
+		4A03A0D728021A08003CF301 /* ChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
 		4A1E245427F98B1E004BD46F /* ThirdPartyApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThirdPartyApps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A1E245727F98B1E004BD46F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4A1E245927F98B1E004BD46F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +70,8 @@
 		4AB51EBC27FAC7130031B1E1 /* FloatPanelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatPanelViewController.swift; sourceTree = "<group>"; };
 		4AB51EBE27FAC97A0031B1E1 /* FloatPanelTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatPanelTableViewController.swift; sourceTree = "<group>"; };
 		4AB51EC327FACC350031B1E1 /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		4AB8F71D280B710300EF60BF /* YouTubeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeViewController.swift; sourceTree = "<group>"; };
+		4AB8F71F280B712400EF60BF /* ShimmerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShimmerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,13 +80,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A46581C27FA2982009FA82E /* SkeletonView in Frameworks */,
+				4AB8F723280B718600EF60BF /* YouTubeiOSPlayerHelper in Frameworks */,
 				4AB51EB827FABE2A0031B1E1 /* BLTNBoard in Frameworks */,
 				4A03A0B727FF9BFA003CF301 /* Lottie in Frameworks */,
 				4AB51ECA27FACE700031B1E1 /* SideMenu in Frameworks */,
 				4A6646EC27FA0DF200F565F3 /* InstantSearchVoiceOverlay in Frameworks */,
+				4A03A0D0280217F3003CF301 /* Charts in Frameworks */,
 				4AB51EB327FAAD020031B1E1 /* WhatsNewKit in Frameworks */,
 				4A6646F527FA0FB300F565F3 /* NotificationBannerSwift in Frameworks */,
 				4AB51EBB27FAC7020031B1E1 /* FloatingPanel in Frameworks */,
+				4AB8F726280B71A100EF60BF /* ShimmerSwift in Frameworks */,
 				4A6646F227FA0F3D00F565F3 /* CardSlider in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,6 +154,9 @@
 				4AB51EBE27FAC97A0031B1E1 /* FloatPanelTableViewController.swift */,
 				4AB51EC327FACC350031B1E1 /* SideMenuViewController.swift */,
 				4A03A0B227FF9B11003CF301 /* LottieViewController.swift */,
+				4A03A0D728021A08003CF301 /* ChartViewController.swift */,
+				4AB8F71D280B710300EF60BF /* YouTubeViewController.swift */,
+				4AB8F71F280B712400EF60BF /* ShimmerViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -172,6 +187,9 @@
 				4AB51EBA27FAC7020031B1E1 /* FloatingPanel */,
 				4AB51EC927FACE700031B1E1 /* SideMenu */,
 				4A03A0B627FF9BFA003CF301 /* Lottie */,
+				4A03A0CF280217F3003CF301 /* Charts */,
+				4AB8F722280B718600EF60BF /* YouTubeiOSPlayerHelper */,
+				4AB8F725280B71A100EF60BF /* ShimmerSwift */,
 			);
 			productName = ThirdPartyApps;
 			productReference = 4A1E245427F98B1E004BD46F /* ThirdPartyApps.app */;
@@ -211,6 +229,9 @@
 				4AB51EB927FAC7020031B1E1 /* XCRemoteSwiftPackageReference "FloatingPanel" */,
 				4AB51EC827FACE700031B1E1 /* XCRemoteSwiftPackageReference "SideMenu" */,
 				4A03A0B527FF9BFA003CF301 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				4A03A0CE280217F3003CF301 /* XCRemoteSwiftPackageReference "Charts" */,
+				4AB8F721280B718600EF60BF /* XCRemoteSwiftPackageReference "youtube-ios-player-helper" */,
+				4AB8F724280B71A100EF60BF /* XCRemoteSwiftPackageReference "ShimmerSwift" */,
 			);
 			productRefGroup = 4A1E245527F98B1E004BD46F /* Products */;
 			projectDirPath = "";
@@ -243,10 +264,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AB8F720280B712400EF60BF /* ShimmerViewController.swift in Sources */,
 				4A6646F727FA100000F565F3 /* BannerViewController.swift in Sources */,
 				4AB51EB527FAADA50031B1E1 /* NewsViewController.swift in Sources */,
+				4AB8F71E280B710300EF60BF /* YouTubeViewController.swift in Sources */,
 				4A1E245C27F98B1E004BD46F /* ViewController.swift in Sources */,
 				4A03A0B327FF9B11003CF301 /* LottieViewController.swift in Sources */,
+				4A03A0D828021A08003CF301 /* ChartViewController.swift in Sources */,
 				4AB51EC427FACC350031B1E1 /* SideMenuViewController.swift in Sources */,
 				4A46582227FA3786009FA82E /* SkeletonTableViewCell.swift in Sources */,
 				4AB51EBD27FAC7130031B1E1 /* FloatPanelViewController.swift in Sources */,
@@ -488,6 +512,14 @@
 				kind = branch;
 			};
 		};
+		4A03A0CE280217F3003CF301 /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
 		4A46581A27FA2982009FA82E /* XCRemoteSwiftPackageReference "SkeletonView" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Juanpe/SkeletonView";
@@ -552,6 +584,22 @@
 				minimumVersion = 6.0.0;
 			};
 		};
+		4AB8F721280B718600EF60BF /* XCRemoteSwiftPackageReference "youtube-ios-player-helper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/youtube/youtube-ios-player-helper";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		4AB8F724280B71A100EF60BF /* XCRemoteSwiftPackageReference "ShimmerSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/BeauNouvelle/ShimmerSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -559,6 +607,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 4A03A0B527FF9BFA003CF301 /* XCRemoteSwiftPackageReference "lottie-ios" */;
 			productName = Lottie;
+		};
+		4A03A0CF280217F3003CF301 /* Charts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4A03A0CE280217F3003CF301 /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = Charts;
 		};
 		4A46581B27FA2982009FA82E /* SkeletonView */ = {
 			isa = XCSwiftPackageProductDependency;
@@ -599,6 +652,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 4AB51EC827FACE700031B1E1 /* XCRemoteSwiftPackageReference "SideMenu" */;
 			productName = SideMenu;
+		};
+		4AB8F722280B718600EF60BF /* YouTubeiOSPlayerHelper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4AB8F721280B718600EF60BF /* XCRemoteSwiftPackageReference "youtube-ios-player-helper" */;
+			productName = YouTubeiOSPlayerHelper;
+		};
+		4AB8F725280B71A100EF60BF /* ShimmerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4AB8F724280B71A100EF60BF /* XCRemoteSwiftPackageReference "ShimmerSwift" */;
+			productName = ShimmerSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

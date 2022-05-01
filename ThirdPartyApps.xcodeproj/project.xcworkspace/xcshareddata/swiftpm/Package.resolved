@@ -19,6 +19,15 @@
       }
     },
     {
+      "identity" : "charts",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/danielgindi/Charts",
+      "state" : {
+        "revision" : "66546404a6739173b8e436ab6bc1f2897cd08594",
+        "version" : "3.6.0"
+      }
+    },
+    {
       "identity" : "floatingpanel",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/scenee/FloatingPanel",
@@ -52,6 +61,15 @@
       "state" : {
         "revision" : "e856a462053daf80c7936056d64246983f3f4d14",
         "version" : "3.1.0"
+      }
+    },
+    {
+      "identity" : "shimmerswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/BeauNouvelle/ShimmerSwift",
+      "state" : {
+        "revision" : "f1a4366f74329c313e9528bcbe5286eacc750c05",
+        "version" : "2.2.0"
       }
     },
     {
@@ -97,6 +115,15 @@
       "state" : {
         "revision" : "8d40ce0de25a4bfe7996bef46c429c1e56a8962b",
         "version" : "2.0.1"
+      }
+    },
+    {
+      "identity" : "youtube-ios-player-helper",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/youtube/youtube-ios-player-helper",
+      "state" : {
+        "revision" : "f57129cd4380ec0a74dd3a59da3270a1d653d59b",
+        "version" : "1.0.4"
       }
     }
   ],

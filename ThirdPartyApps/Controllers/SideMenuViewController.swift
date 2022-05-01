@@ -32,6 +32,7 @@ class SideMenuViewController: UIViewController, MenuListViewControllerDelegate {
     }
     
     func menuItemTapped(item: String) {
+        controller.dismiss(animated: true, completion: nil)
         label.text = item
     }
 }
