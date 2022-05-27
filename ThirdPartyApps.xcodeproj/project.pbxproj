@@ -31,6 +31,8 @@
 		4A6646F227FA0F3D00F565F3 /* CardSlider in Frameworks */ = {isa = PBXBuildFile; productRef = 4A6646F127FA0F3D00F565F3 /* CardSlider */; };
 		4A6646F527FA0FB300F565F3 /* NotificationBannerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4A6646F427FA0FB300F565F3 /* NotificationBannerSwift */; };
 		4A6646F727FA100000F565F3 /* BannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6646F627FA100000F565F3 /* BannerViewController.swift */; };
+		4A990D1C28230E2B00186D6B /* SwinjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A990D1B28230E2B00186D6B /* SwinjectViewController.swift */; };
+		4A990D1F28230EBD00186D6B /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 4A990D1E28230EBD00186D6B /* Swinject */; };
 		4AB51EB327FAAD020031B1E1 /* WhatsNewKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4AB51EB227FAAD020031B1E1 /* WhatsNewKit */; };
 		4AB51EB527FAADA50031B1E1 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB51EB427FAADA50031B1E1 /* NewsViewController.swift */; };
 		4AB51EB827FABE2A0031B1E1 /* BLTNBoard in Frameworks */ = {isa = PBXBuildFile; productRef = 4AB51EB727FABE2A0031B1E1 /* BLTNBoard */; };
@@ -66,6 +68,7 @@
 		4A46581F27FA36E5009FA82E /* BulletBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulletBoardViewController.swift; sourceTree = "<group>"; };
 		4A46582127FA3786009FA82E /* SkeletonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonTableViewCell.swift; sourceTree = "<group>"; };
 		4A6646F627FA100000F565F3 /* BannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerViewController.swift; sourceTree = "<group>"; };
+		4A990D1B28230E2B00186D6B /* SwinjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwinjectViewController.swift; sourceTree = "<group>"; };
 		4AB51EB427FAADA50031B1E1 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		4AB51EBC27FAC7130031B1E1 /* FloatPanelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatPanelViewController.swift; sourceTree = "<group>"; };
 		4AB51EBE27FAC97A0031B1E1 /* FloatPanelTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatPanelTableViewController.swift; sourceTree = "<group>"; };
@@ -91,6 +94,7 @@
 				4AB51EBB27FAC7020031B1E1 /* FloatingPanel in Frameworks */,
 				4AB8F726280B71A100EF60BF /* ShimmerSwift in Frameworks */,
 				4A6646F227FA0F3D00F565F3 /* CardSlider in Frameworks */,
+				4A990D1F28230EBD00186D6B /* Swinject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +161,7 @@
 				4A03A0D728021A08003CF301 /* ChartViewController.swift */,
 				4AB8F71D280B710300EF60BF /* YouTubeViewController.swift */,
 				4AB8F71F280B712400EF60BF /* ShimmerViewController.swift */,
+				4A990D1B28230E2B00186D6B /* SwinjectViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -190,6 +195,7 @@
 				4A03A0CF280217F3003CF301 /* Charts */,
 				4AB8F722280B718600EF60BF /* YouTubeiOSPlayerHelper */,
 				4AB8F725280B71A100EF60BF /* ShimmerSwift */,
+				4A990D1E28230EBD00186D6B /* Swinject */,
 			);
 			productName = ThirdPartyApps;
 			productReference = 4A1E245427F98B1E004BD46F /* ThirdPartyApps.app */;
@@ -232,6 +238,7 @@
 				4A03A0CE280217F3003CF301 /* XCRemoteSwiftPackageReference "Charts" */,
 				4AB8F721280B718600EF60BF /* XCRemoteSwiftPackageReference "youtube-ios-player-helper" */,
 				4AB8F724280B71A100EF60BF /* XCRemoteSwiftPackageReference "ShimmerSwift" */,
+				4A990D1D28230EBD00186D6B /* XCRemoteSwiftPackageReference "Swinject" */,
 			);
 			productRefGroup = 4A1E245527F98B1E004BD46F /* Products */;
 			projectDirPath = "";
@@ -273,6 +280,7 @@
 				4A03A0D828021A08003CF301 /* ChartViewController.swift in Sources */,
 				4AB51EC427FACC350031B1E1 /* SideMenuViewController.swift in Sources */,
 				4A46582227FA3786009FA82E /* SkeletonTableViewCell.swift in Sources */,
+				4A990D1C28230E2B00186D6B /* SwinjectViewController.swift in Sources */,
 				4AB51EBD27FAC7130031B1E1 /* FloatPanelViewController.swift in Sources */,
 				4A46582027FA36E5009FA82E /* BulletBoardViewController.swift in Sources */,
 				4A1E246D27F98DF6004BD46F /* VoiceViewController.swift in Sources */,
@@ -552,6 +560,14 @@
 				minimumVersion = 3.0.0;
 			};
 		};
+		4A990D1D28230EBD00186D6B /* XCRemoteSwiftPackageReference "Swinject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/Swinject";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 		4AB51EB127FAAD020031B1E1 /* XCRemoteSwiftPackageReference "WhatsNewKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SvenTiigi/WhatsNewKit";
@@ -632,6 +648,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 4A6646F327FA0FB300F565F3 /* XCRemoteSwiftPackageReference "NotificationBanner" */;
 			productName = NotificationBannerSwift;
+		};
+		4A990D1E28230EBD00186D6B /* Swinject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4A990D1D28230EBD00186D6B /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
 		};
 		4AB51EB227FAAD020031B1E1 /* WhatsNewKit */ = {
 			isa = XCSwiftPackageProductDependency;

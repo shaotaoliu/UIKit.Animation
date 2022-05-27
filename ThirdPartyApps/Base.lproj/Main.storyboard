@@ -649,15 +649,15 @@
                                             <rect key="frame" x="0.0" y="0.0" width="385.5" height="60"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="slX-dk-LHZ">
-                                                    <rect key="frame" x="20" y="9" width="31.5" height="19.5"/>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Swinject" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="slX-dk-LHZ">
+                                                    <rect key="frame" x="20" y="9" width="61.5" height="19.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8Fj-4W-O5o">
-                                                    <rect key="frame" x="20" y="31.5" width="50" height="17"/>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="A dependency injection framework for Swift" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8Fj-4W-O5o">
+                                                    <rect key="frame" x="20" y="31.5" width="282.5" height="17"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" systemColor="systemGrayColor"/>
@@ -665,23 +665,26 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="los-QQ-dDf" kind="show" id="QyA-zI-Y91"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="mPw-Mr-Vwh" detailTextLabel="D8P-d3-aPe" style="IBUITableViewCellStyleSubtitle" id="TxA-oJ-iAm">
                                         <rect key="frame" x="0.0" y="824.5" width="414" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="TxA-oJ-iAm" id="iMy-s0-w54">
-                                            <rect key="frame" x="0.0" y="0.0" width="397.5" height="60"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="385.5" height="60"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="xxxxx" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mPw-Mr-Vwh">
-                                                    <rect key="frame" x="8" y="9" width="40.5" height="19.5"/>
+                                                    <rect key="frame" x="20" y="9" width="40.5" height="19.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="D8P-d3-aPe">
-                                                    <rect key="frame" x="8" y="31.5" width="50" height="17"/>
+                                                    <rect key="frame" x="20" y="31.5" width="50" height="17"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" systemColor="systemGrayColor"/>
@@ -831,6 +834,45 @@
             </objects>
             <point key="canvasLocation" x="555" y="790"/>
         </scene>
+        <!--Swinject View Controller-->
+        <scene sceneID="hhW-0X-K0s">
+            <objects>
+                <viewController id="los-QQ-dDf" customClass="SwinjectViewController" customModule="ThirdPartyApps" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4d2-cM-Wwk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wPQ-Qp-Dax">
+                                <rect key="frame" x="117" y="428" width="180" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="180" id="nSy-kz-bHb"/>
+                                    <constraint firstAttribute="height" constant="40" id="qbq-Je-wzU"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Tap Me">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="buttonTapped" destination="los-QQ-dDf" eventType="touchUpInside" id="Iq6-ux-Aa4"/>
+                                    <action selector="buttonTapped:" destination="F42-mq-O2V" eventType="touchUpInside" id="Wne-qD-Crw"/>
+                                    <action selector="buttonTapped:" destination="GDJ-Xh-6PM" eventType="touchUpInside" id="dGg-b4-UQk"/>
+                                    <action selector="buttonTapped:" destination="Jj2-8J-exH" eventType="touchUpInside" id="tlo-3Y-bOc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vqN-Wd-3Up"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="wPQ-Qp-Dax" firstAttribute="centerY" secondItem="4d2-cM-Wwk" secondAttribute="centerY" id="83D-gU-6c6"/>
+                            <constraint firstItem="wPQ-Qp-Dax" firstAttribute="centerX" secondItem="4d2-cM-Wwk" secondAttribute="centerX" id="hCj-ia-sCQ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="8qc-ht-oqa"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tOF-2X-dfq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1386" y="790"/>
+        </scene>
         <!--YouTube-->
         <scene sceneID="jCU-BL-xcW">
             <objects>
@@ -872,7 +914,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w2N-A0-E7r" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1393" y="798"/>
+            <point key="canvasLocation" x="554" y="1463"/>
         </scene>
         <!--Shimmer-->
         <scene sceneID="aJb-Nu-YgW">
@@ -940,7 +982,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tDz-Lb-QFI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2152" y="798"/>
+            <point key="canvasLocation" x="1326" y="1463"/>
         </scene>
         <!--Lottie-->
         <scene sceneID="HW0-4s-ITO">
